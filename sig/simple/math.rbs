@@ -1,0 +1,11 @@
+module Simple
+  module Math
+    VERSION: String
+    # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+    def self.factorial: (n: Numeric) -> Integer
+
+    def self.get_max: (a: Numeric, b: Numeric) -> Numeric
+
+    def self.get_min: (a: Numeric, b: Numeric) -> Numeric
+  end
+end
